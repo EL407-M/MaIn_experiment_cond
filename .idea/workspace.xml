@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7ed58e6-a89b-4cc1-9855-f30c4f76d6e6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/AcceptanceCurse/templates/AcceptanceCurse/Page1.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AcceptanceCurse/static/AcceptanceCurse/urns.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AcceptanceCurse/templates/AcceptanceCurse/Page1Active.html" afterPath="$PROJECT_DIR$/AcceptanceCurse/templates/AcceptanceCurse/Page1Active.html" />
+      <change beforePath="$PROJECT_DIR$/AcceptanceCurse/templates/AcceptanceCurse/Page1Passive.html" afterPath="$PROJECT_DIR$/AcceptanceCurse/templates/AcceptanceCurse/Page1Passive.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,11 +25,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pages.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pages.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AcceptanceCurse/pages.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="40" column="27" lean-forward="false" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
+            <state relative-caret-position="135">
+              <caret line="12" column="39" lean-forward="true" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Page1Active.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AcceptanceCurse/templates/AcceptanceCurse/Page1Active.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="63" column="21" lean-forward="true" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Page1Passive.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AcceptanceCurse/templates/AcceptanceCurse/Page1Passive.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="333">
+              <caret line="76" column="27" lean-forward="false" selection-start-line="76" selection-start-column="27" selection-end-line="76" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -70,10 +92,10 @@
         <option value="$PROJECT_DIR$/AcceptanceCurse/pages.py" />
         <option value="$PROJECT_DIR$/AcceptanceCurse/templates/AcceptanceCurse/Page2.html" />
         <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/AcceptanceCurse/templates/AcceptanceCurse/Page1Passive.html" />
         <option value="$PROJECT_DIR$/AcceptanceCurse/templates/AcceptanceCurse/FinalPage.html" />
-        <option value="$PROJECT_DIR$/AcceptanceCurse/templates/AcceptanceCurse/Page1Active.html" />
         <option value="$PROJECT_DIR$/AcceptanceCurse/models.py" />
+        <option value="$PROJECT_DIR$/AcceptanceCurse/templates/AcceptanceCurse/Page1Active.html" />
+        <option value="$PROJECT_DIR$/AcceptanceCurse/templates/AcceptanceCurse/Page1Passive.html" />
       </list>
     </option>
   </component>
@@ -119,6 +141,19 @@
               <item name="AC_experiment_cond" type="b2602c69:ProjectViewProjectNode" />
               <item name="AC_experiment_cond" type="462c0819:PsiDirectoryNode" />
               <item name="AcceptanceCurse" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AC_experiment_cond" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AC_experiment_cond" type="462c0819:PsiDirectoryNode" />
+              <item name="AcceptanceCurse" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="AcceptanceCurse" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AC_experiment_cond" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AC_experiment_cond" type="462c0819:PsiDirectoryNode" />
+              <item name="AcceptanceCurse" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -137,6 +172,11 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/AcceptanceCurse/static/AcceptanceCurse" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -512,22 +552,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AcceptanceCurse/templates/AcceptanceCurse/Page1Active.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
-          <caret line="78" column="81" lean-forward="false" selection-start-line="78" selection-start-column="26" selection-end-line="78" selection-end-column="81" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AcceptanceCurse/templates/AcceptanceCurse/Page1Passive.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="789">
-          <caret line="117" column="89" lean-forward="false" selection-start-line="117" selection-start-column="89" selection-end-line="117" selection-end-column="89" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AcceptanceCurse/templates/AcceptanceCurse/Page2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -554,8 +578,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AcceptanceCurse/pages.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="40" column="27" lean-forward="false" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
+        <state relative-caret-position="135">
+          <caret line="12" column="39" lean-forward="true" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AcceptanceCurse/templates/AcceptanceCurse/Page1Passive.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="76" column="27" lean-forward="false" selection-start-line="76" selection-start-column="27" selection-end-line="76" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AcceptanceCurse/templates/AcceptanceCurse/Page1Active.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="63" column="21" lean-forward="true" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="21" />
           <folding />
         </state>
       </provider>
