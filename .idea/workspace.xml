@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7ed58e6-a89b-4cc1-9855-f30c4f76d6e6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/AcceptanceCurse/templates/AcceptanceCurse/FinalPage.html" afterPath="$PROJECT_DIR$/AcceptanceCurse/templates/AcceptanceCurse/FinalPage.html" />
-      <change beforePath="$PROJECT_DIR$/AcceptanceCurse/templates/AcceptanceCurse/Page1Active.html" afterPath="$PROJECT_DIR$/AcceptanceCurse/templates/AcceptanceCurse/Page1Active.html" />
-      <change beforePath="$PROJECT_DIR$/AcceptanceCurse/templates/AcceptanceCurse/Page1Passive.html" afterPath="$PROJECT_DIR$/AcceptanceCurse/templates/AcceptanceCurse/Page1Passive.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/AcceptanceCurse/static/AcceptanceCurse/urns_cond_A.png" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/AcceptanceCurse/static/AcceptanceCurse/urns_cond_C.png" afterPath="$PROJECT_DIR$/AcceptanceCurse/static/AcceptanceCurse/urns_cond_C.png" />
+      <change beforePath="$PROJECT_DIR$/AcceptanceCurse/static/AcceptanceCurse/urns_cond_D.png" afterPath="$PROJECT_DIR$/AcceptanceCurse/static/AcceptanceCurse/urns_cond_B.png" />
+      <change beforePath="$PROJECT_DIR$/AcceptanceCurse/static/AcceptanceCurse/urns_cond_F.png" afterPath="$PROJECT_DIR$/AcceptanceCurse/static/AcceptanceCurse/urns_cond_D.png" />
+      <change beforePath="$PROJECT_DIR$/AcceptanceCurse/static/AcceptanceCurse/urns_cond_G.png" afterPath="$PROJECT_DIR$/AcceptanceCurse/static/AcceptanceCurse/urns_cond_E.png" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,10 +39,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Page1Active.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Page1Active.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AcceptanceCurse/templates/AcceptanceCurse/Page1Active.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="427">
+            <state relative-caret-position="977">
               <caret line="111" column="16" lean-forward="false" selection-start-line="109" selection-start-column="16" selection-end-line="111" selection-end-column="16" />
               <folding />
             </state>
@@ -65,11 +69,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FinalPage.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FinalPage.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AcceptanceCurse/templates/AcceptanceCurse/FinalPage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="38" column="60" lean-forward="false" selection-start-line="38" selection-start-column="60" selection-end-line="38" selection-end-column="60" />
+            <state relative-caret-position="675">
+              <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -228,9 +232,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="46" y="23" width="1735" height="986" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2017291" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2017291" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -588,14 +591,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AcceptanceCurse/templates/AcceptanceCurse/Page1Active.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="111" column="16" lean-forward="false" selection-start-line="109" selection-start-column="16" selection-end-line="111" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AcceptanceCurse/templates/AcceptanceCurse/Page1Passive.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="335">
@@ -614,8 +609,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AcceptanceCurse/templates/AcceptanceCurse/FinalPage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="60" lean-forward="false" selection-start-line="38" selection-start-column="60" selection-end-line="38" selection-end-column="60" />
+        <state relative-caret-position="675">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AcceptanceCurse/templates/AcceptanceCurse/Page1Active.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="977">
+          <caret line="111" column="16" lean-forward="false" selection-start-line="109" selection-start-column="16" selection-end-line="111" selection-end-column="16" />
           <folding />
         </state>
       </provider>
