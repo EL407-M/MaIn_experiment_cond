@@ -30,11 +30,9 @@ class Constants(BaseConstants):
     signal_names = ["red", "yellow", "blue"]
     pL = [0, 1/2, 1/2]
     pM = [0, 1, 0]
-    pH = [1/2, 1/2, 0]
+    pH = [[0.5, 0.5, 0], [0.625, 0.375, 0], [0.75, 0.25, 0], [0.875, 0.125, 0], [1, 0, 0]]
     game_space = [0, 1, 2, 3, 4]
     game_labels= ["A", "B", "C", "D", "E"]
-    prob_Haccept = [1, 0.75, 0.5, 0.25, 0]
-
 
 class Subsession(BaseSubsession):
 
@@ -50,7 +48,6 @@ class Subsession(BaseSubsession):
         # set game
         self.game = Constants.game_sequence[self.round_number-1]
         self.game_name = Constants.game_labels[self.game]
-        self.game_prob = Constants.prob_Haccept[self.game]*100
         # assign types
         for p in self.get_players():
             p.type = random.choice(Constants.type_space)
@@ -71,17 +68,14 @@ class Subsession(BaseSubsession):
                     p.partner_id = p1
                     p.status = Constants.status_space[1]
                     p.status_name = Constants.status_labels[p.status]
-                    if p.type == 2 or p.type == 3:
-                        p.choice = 1
-                    else:
-                        p.choice = numpy.random.choice([0, 1], p=[1-Constants.prob_Haccept[self.game], Constants.prob_Haccept[self.game]])
+                    p.choice = 1
         #  generate signals
         for p in self.get_players():
             for q in self.get_players():
                 if p.partner_id == q.id_in_group:
                     p.partner_type = q.type
                     if q.type == 1:
-                        p.signal = numpy.random.choice(Constants.signal_space, p=Constants.pH)
+                        p.signal = numpy.random.choice(Constants.signal_space, p=Constants.pH[self.game])
                     elif q.type == 2:
                         p.signal = numpy.random.choice(Constants.signal_space, p=Constants.pM)
                     elif q.type == 3:
