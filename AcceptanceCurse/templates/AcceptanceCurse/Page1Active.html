@@ -52,11 +52,16 @@
                 Distribution of clues:
             </p>
             <figure align="center">
-                {%   if subsession.game == 0 %}<img src="{% static "AcceptanceCurse/urns_cond_A.png" %}" width="80%" height="80%"/>
-                {% elif subsession.game == 1 %}<img src="{% static "AcceptanceCurse/urns_cond_B.png" %}" width="80%" height="80%"/>
-                {% elif subsession.game == 2 %}<img src="{% static "AcceptanceCurse/urns_cond_C.png" %}" width="80%" height="80%"/>
-                {% elif subsession.game == 3 %}<img src="{% static "AcceptanceCurse/urns_cond_D.png" %}" width="80%" height="80%"/>
-                {% elif subsession.game == 4 %}<img src="{% static "AcceptanceCurse/urns_cond_E.png" %}" width="80%" height="80%"/>
+                {%   if subsession.game == 0 %}
+                    <img src="{% static "AcceptanceCurse/urns_cond_A.png" %}" width="80%" height="80%"/>
+                {% elif subsession.game == 1 %}
+                    <img src="{% static "AcceptanceCurse/urns_cond_B.png" %}" width="80%" height="80%"/>
+                {% elif subsession.game == 2 %}
+                    <img src="{% static "AcceptanceCurse/urns_cond_C.png" %}" width="80%" height="80%"/>
+                {% elif subsession.game == 3 %}
+                    <img src="{% static "AcceptanceCurse/urns_cond_D.png" %}" width="80%" height="80%"/>
+                {% elif subsession.game == 4 %}
+                    <img src="{% static "AcceptanceCurse/urns_cond_E.png" %}" width="80%" height="80%"/>
                 {% endif %}
             </figure>
         </div>

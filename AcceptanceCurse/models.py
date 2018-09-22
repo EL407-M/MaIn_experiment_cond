@@ -19,7 +19,7 @@ class Constants(BaseConstants):
     name_in_url = 'game'
     players_per_group = None
     num_rounds = 5
-    game_sequence = [0, 3, 1, 4, 2]
+    game_sequence = [0, 1, 2, 3, 4]
     type_space = [1, 2, 3]
     type_labels = ["H", "M", "L"]
     status_space = [0, 1]
