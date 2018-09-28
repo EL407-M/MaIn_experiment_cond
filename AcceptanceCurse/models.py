@@ -18,10 +18,10 @@ Matching Game with noisy signals
 class Constants(BaseConstants):
     name_in_url = 'game'
     players_per_group = None
-    num_rounds = 5
-    game_sequence = [0, 1, 2, 3, 4]
+    num_rounds = 3
+    game_sequence = [0, 2, 4]
     type_space = [1, 2, 3]
-    type_labels = ["H", "M", "L"]
+    type_labels = ["X", "Y", "Z"]
     status_space = [0, 1]
     status_labels = ["active", "passive"]
     match_value = [160, 80, 40]
@@ -38,7 +38,6 @@ class Subsession(BaseSubsession):
 
     game = models.IntegerField()
     game_name = models.StringField()
-    game_prob = models.FloatField()
 
     def initialize_round(self):
         # set paying round
