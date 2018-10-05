@@ -11,7 +11,8 @@ class Intro(Page):
 class MyWaitPage1(WaitPage):
 
     def after_all_players_arrive(self):
-        self.subsession.initialize_round()
+
+        self.group.initialize_group()
 
 
 class Page1Active(Page):
@@ -45,7 +46,7 @@ class Page1Passive(Page):
 class MyWaitPage2(WaitPage):
 
     def after_all_players_arrive(self):
-        self.subsession.get_outcome()
+        self.group.get_outcome()
 
 
 class Page2(Page):
