@@ -2,8 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7ed58e6-a89b-4cc1-9855-f30c4f76d6e6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/AcceptanceCurse/models.py" afterPath="$PROJECT_DIR$/AcceptanceCurse/models.py" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/AcceptanceCurse/static/AcceptanceCurse/urns_cond_A.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AcceptanceCurse/static/AcceptanceCurse/urns_cond_B.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AcceptanceCurse/static/AcceptanceCurse/urns_cond_C.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AcceptanceCurse/static/AcceptanceCurse/urns_cond_D.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AcceptanceCurse/static/AcceptanceCurse/urns_cond_E.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AcceptanceCurse/templates/AcceptanceCurse/Page1Active.html" afterPath="$PROJECT_DIR$/AcceptanceCurse/templates/AcceptanceCurse/Page1Active.html" />
+      <change beforePath="$PROJECT_DIR$/AcceptanceCurse/templates/AcceptanceCurse/Page1Passive.html" afterPath="$PROJECT_DIR$/AcceptanceCurse/templates/AcceptanceCurse/Page1Passive.html" />
+      <change beforePath="$PROJECT_DIR$/crt/pages.py" afterPath="$PROJECT_DIR$/crt/pages.py" />
+      <change beforePath="$PROJECT_DIR$/crt/templates/crt/Intro.html" afterPath="$PROJECT_DIR$/crt/templates/crt/Intro.html" />
+      <change beforePath="$PROJECT_DIR$/crt/templates/crt/Page1.html" afterPath="$PROJECT_DIR$/crt/templates/crt/Page1.html" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
+      <change beforePath="$PROJECT_DIR$/mpl/models.py" afterPath="$PROJECT_DIR$/mpl/models.py" />
+      <change beforePath="$PROJECT_DIR$/mpl/pages.py" afterPath="$PROJECT_DIR$/mpl/pages.py" />
+      <change beforePath="$PROJECT_DIR$/mpl/templates/mpl/Decision.html" afterPath="$PROJECT_DIR$/mpl/templates/mpl/Decision.html" />
+      <change beforePath="$PROJECT_DIR$/mpl/templates/mpl/Intro.html" afterPath="$PROJECT_DIR$/mpl/templates/mpl/Intro.html" />
+      <change beforePath="$PROJECT_DIR$/mpl/templates/mpl/Results.html" afterPath="$PROJECT_DIR$/mpl/templates/mpl/Results.html" />
       <change beforePath="$PROJECT_DIR$/settings.py" afterPath="$PROJECT_DIR$/settings.py" />
+      <change beforePath="$PROJECT_DIR$/survey/templates/survey/Intro.html" afterPath="$PROJECT_DIR$/survey/templates/survey/Intro.html" />
+      <change beforePath="$PROJECT_DIR$/survey/templates/survey/page1.html" afterPath="$PROJECT_DIR$/survey/templates/survey/page1.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,32 +32,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AcceptanceCurse/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="825">
+            <state relative-caret-position="802">
               <caret line="67" column="8" lean-forward="false" selection-start-line="67" selection-start-column="8" selection-end-line="67" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="23" column="30" lean-forward="false" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+            <state relative-caret-position="285">
+              <caret line="22" column="40" lean-forward="false" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="pages.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AcceptanceCurse/pages.py">
+        <entry file="file://$PROJECT_DIR$/instructions/pages.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="705">
-              <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="427">
+              <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#51#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -78,19 +98,23 @@
         <option value="$PROJECT_DIR$/mpl/config.py" />
         <option value="$PROJECT_DIR$/mpl/models.py" />
         <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/AcceptanceCurse/templates/AcceptanceCurse/Page1Active.html" />
-        <option value="$PROJECT_DIR$/AcceptanceCurse/templates/AcceptanceCurse/Page1Passive.html" />
         <option value="$PROJECT_DIR$/AcceptanceCurse/templates/AcceptanceCurse/Page2.html" />
         <option value="$PROJECT_DIR$/AcceptanceCurse/templates/AcceptanceCurse/FinalPage.html" />
         <option value="$PROJECT_DIR$/AcceptanceCurse/pages.py" />
-        <option value="$PROJECT_DIR$/settings.py" />
         <option value="$PROJECT_DIR$/AcceptanceCurse/models.py" />
+        <option value="$PROJECT_DIR$/settings.py" />
+        <option value="$PROJECT_DIR$/instructions/templates/instructions/Page6.html" />
+        <option value="$PROJECT_DIR$/instructions/templates/instructions/Page7.html" />
+        <option value="$PROJECT_DIR$/instructions/pages.py" />
+        <option value="$PROJECT_DIR$/instructions/templates/instructions/Page6b.html" />
+        <option value="$PROJECT_DIR$/AcceptanceCurse/templates/AcceptanceCurse/Page1Active.html" />
+        <option value="$PROJECT_DIR$/AcceptanceCurse/templates/AcceptanceCurse/Page1Passive.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="173" />
-    <option name="y" value="23" />
+    <option name="x" value="113" />
+    <option name="y" value="143" />
     <option name="width" value="1920" />
     <option name="height" value="977" />
   </component>
@@ -112,6 +136,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -122,6 +148,17 @@
             <path>
               <item name="AC_experiment_cond" type="b2602c69:ProjectViewProjectNode" />
               <item name="AC_experiment_cond" type="462c0819:PsiDirectoryNode" />
+              <item name="_static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AC_experiment_cond" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AC_experiment_cond" type="462c0819:PsiDirectoryNode" />
+              <item name="_static" type="462c0819:PsiDirectoryNode" />
+              <item name="global" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AC_experiment_cond" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AC_experiment_cond" type="462c0819:PsiDirectoryNode" />
               <item name="AcceptanceCurse" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -129,33 +166,11 @@
               <item name="AC_experiment_cond" type="462c0819:PsiDirectoryNode" />
               <item name="AcceptanceCurse" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AC_experiment_cond" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AC_experiment_cond" type="462c0819:PsiDirectoryNode" />
-              <item name="AcceptanceCurse" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="AcceptanceCurse" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AC_experiment_cond" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AC_experiment_cond" type="462c0819:PsiDirectoryNode" />
-              <item name="AcceptanceCurse" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AC_experiment_cond" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AC_experiment_cond" type="462c0819:PsiDirectoryNode" />
-              <item name="AcceptanceCurse" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="AcceptanceCurse" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -164,6 +179,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/instructions/templates/instructions" />
+      <recent name="$PROJECT_DIR$/_static/global" />
       <recent name="$PROJECT_DIR$/AcceptanceCurse/static/AcceptanceCurse" />
     </key>
   </component>
@@ -196,10 +213,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="173" y="23" width="1920" height="977" extended-state="0" />
+    <frame x="113" y="143" width="1920" height="977" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2421875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24170616" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -226,28 +243,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/AcceptanceCurse/pages.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="48" column="61" lean-forward="false" selection-start-line="48" selection-start-column="61" selection-end-line="48" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AcceptanceCurse/templates/AcceptanceCurse/Page2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="40" lean-forward="false" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AcceptanceCurse/templates/AcceptanceCurse/Page1.html" />
-    <entry file="file://$PROJECT_DIR$/AcceptanceCurse/templates/AcceptanceCurse/FinalPage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" column="30" lean-forward="false" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -516,27 +511,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AcceptanceCurse/templates/AcceptanceCurse/Page1Passive.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1635">
-          <caret line="109" column="167" lean-forward="false" selection-start-line="109" selection-start-column="167" selection-end-line="109" selection-end-column="167" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AcceptanceCurse/templates/AcceptanceCurse/Page2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="144" lean-forward="false" selection-start-line="18" selection-start-column="144" selection-end-line="18" selection-end-column="144" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AcceptanceCurse/templates/AcceptanceCurse/Page1Active.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1740">
-          <caret line="116" column="167" lean-forward="false" selection-start-line="116" selection-start-column="167" selection-end-line="116" selection-end-column="167" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -544,30 +522,79 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
           <caret line="39" column="116" lean-forward="false" selection-start-line="39" selection-start-column="116" selection-end-line="39" selection-end-column="116" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AcceptanceCurse/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="802">
+          <caret line="67" column="8" lean-forward="false" selection-start-line="67" selection-start-column="8" selection-end-line="67" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AcceptanceCurse/pages.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
+        <state relative-caret-position="391">
           <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/instructions/templates/instructions/Page7.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="40" column="24" lean-forward="false" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/instructions/templates/instructions/Page6.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/instructions/templates/instructions/Page6b.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="71" column="79" lean-forward="false" selection-start-line="71" selection-start-column="40" selection-end-line="71" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/instructions/pages.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AcceptanceCurse/templates/AcceptanceCurse/Page1Passive.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="69" column="8" lean-forward="true" selection-start-line="69" selection-start-column="8" selection-end-line="69" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AcceptanceCurse/templates/AcceptanceCurse/Page1Active.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="64" column="27" lean-forward="true" selection-start-line="54" selection-start-column="16" selection-end-line="64" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="23" column="30" lean-forward="false" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AcceptanceCurse/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="67" column="8" lean-forward="false" selection-start-line="67" selection-start-column="8" selection-end-line="67" selection-end-column="8" />
+        <state relative-caret-position="285">
+          <caret line="22" column="40" lean-forward="false" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
           <folding />
         </state>
       </provider>

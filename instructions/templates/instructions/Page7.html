@@ -1,0 +1,55 @@
+{% extends "instructions/Page.html" %}
+{% load staticfiles otree %}
+
+{% block title %}
+    INSTRUCTIONS - PART 1
+<h5>
+    FORMING A PARTNERSHIP
+</h5>
+{% endblock %}
+
+
+{% block content %}
+
+
+
+<br>
+
+<ul>
+    <li>When you are <b>an active player</b>, after you have received a clue about your potential partner’s type, you <b>can decide whether you want to form a partnership or not</b>.</li>
+    <li>Note that passive players cannot make any choice. Thus, <b>a partnership is formed whenever the active player in the pair decides so.</b></li>
+</ul>
+
+<br>
+
+    {% next_button %}
+
+{% endblock %}
+
+
+
+
+{% block styles %}
+    <style>
+
+        .column {
+            float: left;
+            width: 50%;
+            padding: 5px;
+        }
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+        tablex, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 5px;
+            text-align: center;
+        }
+    </style>
+
+{% endblock %}
