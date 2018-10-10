@@ -30,10 +30,9 @@ class Constants(BaseConstants):
     signal_names = ["red", "yellow", "blue"]
     pL = [0, 1/2, 1/2]
     pM = [0, 1, 0]
-    pH = [1/2, 1/2, 0]
+    pH = [[0.5, 0.5, 0], [0.625, 0.375, 0], [0.75, 0.25, 0], [0.875, 0.125, 0], [1, 0, 0]]
     game_space = [0, 1, 2, 3, 4]
     game_labels= ["A", "B", "C", "D", "E"]
-    prob_Haccept = [100, 75, 50, 25, 0]
 
 
 class Subsession(BaseSubsession):
@@ -80,7 +79,7 @@ class Player(BasePlayer):
                 self.in_round(t).status_name = Constants.status_labels[Constants.status_space.index(self.in_round(t).status)]
                 self.in_round(t).partner_type = random.choice(Constants.type_space)
                 if self.in_round(t).partner_type == 1:
-                    self.in_round(t).signal = numpy.random.choice(Constants.signal_space, p=Constants.pH)
+                    self.in_round(t).signal = numpy.random.choice(Constants.signal_space, p=Constants.pH[self.subsession.game])
                 elif self.in_round(t).partner_type == 2:
                     self.in_round(t).signal = numpy.random.choice(Constants.signal_space, p=Constants.pM)
                 elif self.in_round(t).partner_type == 3:
@@ -92,7 +91,7 @@ class Player(BasePlayer):
                     Constants.status_space.index(self.in_round(t).status)]
                 self.in_round(t).partner_type = 2
                 if self.in_round(t).partner_type == 1:
-                    self.in_round(t).signal = numpy.random.choice(Constants.signal_space, p=Constants.pH)
+                    self.in_round(t).signal = numpy.random.choice(Constants.signal_space, p=Constants.pH[self.subsession.game])
                 elif self.in_round(t).partner_type == 2:
                     self.in_round(t).signal = numpy.random.choice(Constants.signal_space, p=Constants.pM)
                 elif self.in_round(t).partner_type == 3:
@@ -102,17 +101,9 @@ class Player(BasePlayer):
         match_value = Constants.match_value
         reservation_value = Constants.reservation_value
         if self.status == 0:
-            if self.partner_type == 2 or self.partner_type == 3:
-                self.partner_choice = 1
-            else:
-                self.partner_choice = numpy.random.choice([0, 1], p=[1 - Constants.prob_Haccept[self.subsession.game] / 100,
-                                                          Constants.prob_Haccept[self.subsession.game] / 100])
+            self.partner_choice = 1
         elif self.status == 1:
             self.partner_choice = random.choice([0, 1])
-            if self.type == 2 or self.type == 3:
-                self.choice = 1
-            else:
-                self.choice = numpy.random.choice([0, 1], p=[1 - Constants.prob_Haccept[self.subsession.game] / 100,
-                                                             Constants.prob_Haccept[self.subsession.game] / 100])
+            self.choice = 1
         self.match = self.choice * self.partner_choice
         self.points = self.match * match_value[self.partner_type-1] + (1 - self.match) * reservation_value[self.type-1]

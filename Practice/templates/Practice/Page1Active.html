@@ -46,29 +46,24 @@
                 </tr>
             </table>
             <br>
-            <p align="center">
-                Probability the passive player proposes to form partnership:
-            </p>
-            <table class="tablex" align="center">
-                <tr>
-                    <td>Passive Player's Type</td>
-                    <td>X</td>
-                    <td>Y</td>
-                    <td>Z</td>
-                </tr>
-                <tr>
-                    <td>Probability</td>
-                    <td>{{ prob }}%</td>
-                    <td>100%</td>
-                    <td>100%</td>
-                </tr>
-            </table>
         </div>
         <div class="column">
             <p align="center">
                 Distribution of clues:
             </p>
-            <figure align="center"><img src="{% static "AcceptanceCurse/urns.png" %}" width="80%" height="80%"/></figure>
+            <figure align="center">
+                {%   if subsession.game == 0 %}
+                    <img src="{% static "global/urns_cond_A.png" %}" width="80%" height="80%"/>
+                {% elif subsession.game == 1 %}
+                    <img src="{% static "global/urns_cond_B.png" %}" width="80%" height="80%"/>
+                {% elif subsession.game == 2 %}
+                    <img src="{% static "global/urns_cond_C.png" %}" width="80%" height="80%"/>
+                {% elif subsession.game == 3 %}
+                    <img src="{% static "global/urns_cond_D.png" %}" width="80%" height="80%"/>
+                {% elif subsession.game == 4 %}
+                    <img src="{% static "global/urns_cond_E.png" %}" width="80%" height="80%"/>
+                {% endif %}
+            </figure>
         </div>
     </div>
 
@@ -117,8 +112,8 @@
                 <td>{{ p.status_name }}</td>
                 <td>{% if p.type == 1 %} X {% elif p.type == 2 %} Y {% elif p.type == 3 %} Z {% endif %}</td>
                 <td>{% if p.status == 0 %} {% if p.signal == 1 %} Red {% elif p.signal == 2 %} Yellow {% elif p.signal == 3 %} Blue {% endif %} {% else %} - {% endif %}</td>
-                <td>{% if p.round_number == player.round_number %} - {% elif p.choice == 1 %} Yes {% else %} No {% endif %}</td>
-                <td>{% if p.round_number == player.round_number %} - {% elif p.partner_choice == 1 %} Yes {% else %} No {% endif %}</td>
+                <td>{% if p.status == 1 %} - {% else %}{% if p.round_number == player.round_number %} - {% elif p.choice == 1 %} Yes {% else %} No {% endif %}{% endif %}</td>
+                <td>{% if p.status == 0 %} - {% else %}{% if p.round_number == player.round_number %} - {% elif p.partner_choice == 1 %} Yes {% else %} No {% endif %}{% endif %}</td>
                 <td>{% if p.round_number == player.round_number %} - {% elif p.partner_type == 1 %} X {% elif p.partner_type == 2 %} Y {% elif p.partner_type == 3 %} Z {% endif %}</td>
                 <td>{% if p.round_number == player.round_number %} - {% else %} {{p.points}} {% endif %}</td>
             </tr>
