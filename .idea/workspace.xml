@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7ed58e6-a89b-4cc1-9855-f30c4f76d6e6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/finalpage/pages.py" beforeDir="false" afterPath="$PROJECT_DIR$/finalpage/pages.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/finalpage/templates/finalpage/MyPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/finalpage/templates/finalpage/MyPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,23 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/finalpage/pages.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
-              <folding>
-                <element signature="e#0#51#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/finalpage/templates/finalpage/MyPage.html">
+        <entry file="file://$PROJECT_DIR$/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="3" lean-forward="true" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
+            <state relative-caret-position="394">
+              <caret line="59" column="35" lean-forward="true" selection-start-line="59" selection-start-column="35" selection-end-line="59" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -67,12 +55,10 @@
         <option value="$PROJECT_DIR$/AcceptanceCurse/templates/AcceptanceCurse/Intro.html" />
         <option value="$PROJECT_DIR$/instructions/templates/instructions/Page8.html" />
         <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/settings.py" />
         <option value="$PROJECT_DIR$/LINEEXPage/models.py" />
         <option value="$PROJECT_DIR$/instructions/pages.py" />
         <option value="$PROJECT_DIR$/instructions/templates/instructions/Page2.html" />
         <option value="$PROJECT_DIR$/instructions/templates/instructions/Page9.html" />
-        <option value="$PROJECT_DIR$/AcceptanceCurse/models.py" />
         <option value="$PROJECT_DIR$/AcceptanceCurse/pages.py" />
         <option value="$PROJECT_DIR$/AcceptanceCurse/templates/AcceptanceCurse/Page1Active.html" />
         <option value="$PROJECT_DIR$/AcceptanceCurse/templates/AcceptanceCurse/Page1Passive.html" />
@@ -86,6 +72,8 @@
         <option value="$PROJECT_DIR$/crt/templates/crt/Page1.html" />
         <option value="$PROJECT_DIR$/finalpage/pages.py" />
         <option value="$PROJECT_DIR$/finalpage/templates/finalpage/MyPage.html" />
+        <option value="$PROJECT_DIR$/AcceptanceCurse/models.py" />
+        <option value="$PROJECT_DIR$/settings.py" />
       </list>
     </option>
   </component>
@@ -109,24 +97,6 @@
             <path>
               <item name="AC_experiment_cond" type="b2602c69:ProjectViewProjectNode" />
               <item name="AC_experiment_cond" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AC_experiment_cond" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AC_experiment_cond" type="462c0819:PsiDirectoryNode" />
-              <item name="finalpage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AC_experiment_cond" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AC_experiment_cond" type="462c0819:PsiDirectoryNode" />
-              <item name="finalpage" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AC_experiment_cond" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AC_experiment_cond" type="462c0819:PsiDirectoryNode" />
-              <item name="finalpage" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="finalpage" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -365,13 +335,6 @@
     <entry file="file://$PROJECT_DIR$/Practice/templates/Practice/Page1Active.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="41" column="38" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LINEEXPage/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -405,13 +368,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="48" column="72" selection-start-line="48" selection-start-column="72" selection-end-line="48" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AcceptanceCurse/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="107" column="61" selection-start-line="107" selection-start-column="61" selection-end-line="107" selection-end-column="61" />
         </state>
       </provider>
     </entry>
@@ -510,8 +466,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/finalpage/templates/finalpage/MyPage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="3" lean-forward="true" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
+        <state relative-caret-position="480">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AcceptanceCurse/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="59" column="35" lean-forward="true" selection-start-line="59" selection-start-column="35" selection-end-line="59" selection-end-column="35" />
         </state>
       </provider>
     </entry>
