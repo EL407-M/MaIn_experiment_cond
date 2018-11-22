@@ -11,13 +11,10 @@ class Intro(Page):
 class MyWaitPage1(WaitPage):
 
     def after_all_players_arrive(self):
-
         self.group.initialize_group()
 
 
 class Page1Active(Page):
-
-    timeout_seconds = 60
 
     form_model = 'player'
     form_fields = ['choice']
@@ -37,8 +34,6 @@ class Page1Active(Page):
 
 class Page1Passive(Page):
 
-    timeout_seconds = 30
-
     def is_displayed(self):
         return self.player.status == 1
 
@@ -50,8 +45,7 @@ class MyWaitPage2(WaitPage):
 
 
 class Page2(Page):
-
-    timeout_seconds = 10
+    pass
 
 
 class FinalPage(Page):
@@ -61,7 +55,7 @@ class FinalPage(Page):
 
     def vars_for_template(self):
         return {
-            'total_payoff': sum([p.payoff for p in self.player.in_all_rounds()]),
+            'part1_payoff': self.participant.vars['part1_payoff'],
             'paying_round': self.session.vars['paying_round']
         }
 
