@@ -18,6 +18,11 @@ class Page1Active(Page):
     form_model = 'player'
     form_fields = ['choice']
 
+    def choice_error_message(self, value):
+        print('value is', value)
+        if value is None:
+            return 'Please select one of the options.'
+
     def is_displayed(self):
         return self.player.status == 0
 
