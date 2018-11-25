@@ -9,9 +9,10 @@ class Intro(Page):
         return self.round_number == 1
 
 class MyWaitPage1(WaitPage):
+    wait_for_all_groups = True
 
     def after_all_players_arrive(self):
-        self.group.initialize_group()
+        self.subsession.initialize_group()
 
 
 class Page1Active(Page):
@@ -39,9 +40,10 @@ class Page1Passive(Page):
 
 
 class MyWaitPage2(WaitPage):
+    wait_for_all_groups = True
 
     def after_all_players_arrive(self):
-        self.group.get_outcome()
+        self.subsession.get_outcome()
 
 
 class Page2(Page):
