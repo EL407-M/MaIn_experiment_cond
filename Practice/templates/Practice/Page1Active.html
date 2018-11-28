@@ -11,7 +11,7 @@
     <div class = "row">
         <div class="column">
             <p align="center">
-                Points if you form a partnership:
+                Points if partnership is formed:
             </p>
             <table class="tablex" align="center">
                 <tr>
@@ -29,7 +29,7 @@
             </table>
             <br>
             <p align="center">
-                Points if you do not form a partnership:
+                Points if partnership is not formed:
             </p>
             <table class="tablex" align="center">
                 <tr>
@@ -71,7 +71,7 @@
 
     <h4 align="center"> In this round you are active: make a choice.</h4>
     <p>
-        You are a Y type (if you do not form a partnership, you earn 75 points).
+        You are a Y type (if no partnership is formed, you earn 75 points).
     </p>
     {% if player.signal == 1 %}
     <p>
@@ -101,7 +101,6 @@
             <th>Your Type</th>
             <th>Your Clue</th>
             <th>Your Choice</th>
-            <th>Partner's Choice</th>
             <th>Partner's Type</th>
             <th>Your points</th>
         </tr>
@@ -113,7 +112,6 @@
                 <td>{% if p.type == 1 %} X {% elif p.type == 2 %} Y {% elif p.type == 3 %} Z {% endif %}</td>
                 <td>{% if p.status == 0 %} {% if p.signal == 1 %} Red {% elif p.signal == 2 %} Yellow {% elif p.signal == 3 %} Blue {% endif %} {% else %} - {% endif %}</td>
                 <td>{% if p.status == 1 %} - {% else %}{% if p.round_number == player.round_number %} - {% elif p.choice == 1 %} Yes {% else %} No {% endif %}{% endif %}</td>
-                <td>{% if p.status == 0 %} - {% else %}{% if p.round_number == player.round_number %} - {% elif p.partner_choice == 1 %} Yes {% else %} No {% endif %}{% endif %}</td>
                 <td>{% if p.round_number == player.round_number %} - {% elif p.partner_type == 1 %} X {% elif p.partner_type == 2 %} Y {% elif p.partner_type == 3 %} Z {% endif %}</td>
                 <td>{% if p.round_number == player.round_number %} - {% else %} {{p.points}} {% endif %}</td>
             </tr>
