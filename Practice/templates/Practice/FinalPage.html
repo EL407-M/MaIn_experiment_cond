@@ -24,6 +24,7 @@
             <th>Your Type</th>
             <th>Your Clue</th>
             <th>Your Choice</th>
+            <th>Partner's Choice</th>
             <th>Partner's Type</th>
             <th>Your points</th>
         </tr>
@@ -35,6 +36,7 @@
                 <td>{% if p.type == 1 %} X {% elif p.type == 2 %} Y {% elif p.type == 3 %} Z {% endif %}</td>
                 <td>{% if p.status == 0 %} {% if p.signal == 1 %} Red {% elif p.signal == 2 %} Yellow {% elif p.signal == 3 %} Blue {% endif %} {% else %} - {% endif %}</td>
                 <td>{% if p.choice == 1 %} Yes {% else %} No {% endif %}</td>
+                <td>{% if p.status == 0 %} - {% else %}{% if p.partner_choice == 1 %} Yes {% else %} No {% endif %}{% endif %}</td>
                 <td>{% if p.partner_type == 1 %} X {% elif p.partner_type == 2 %} Y {% elif p.partner_type == 3 %} Z {% endif %}</td>
                 <td>{{p.points}}</td>
             </tr>
